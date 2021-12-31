@@ -1,0 +1,10 @@
+# Dockerfile
+
+FROM php:8.0-apache
+
+# Répertoire de travail dans le conteneur
+WORKDIR /var/www/html
+
+
+#Copier le fichier source dans le répertoire de travail
+COPY src .

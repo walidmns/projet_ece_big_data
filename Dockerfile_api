@@ -1,25 +1,20 @@
 #Dockerfile
 
-#FROM nginx 
-#COPY . /usr/share/nginx/html
-
 FROM python:3.9
 
-# set the working directory in the container
+# Répertoire de travail dans le conteneur
 WORKDIR /code
 
-# copy the dependencies file to the working directory
+# copier le fichier de dépendances dans le répertoire de travail
 COPY requirements.txt .
 
-# install dependencies
+# installation des dépendances 
 RUN pip install -r requirements.txt
 RUN pip install requests
 RUN pip install bs4
 
-# copy the content of the local src directory to the working directory
+# Copier le contenu du répertoire source dans le répertoire de travail
 COPY src .
 
-# command to run on container start
+# Commande à lancer quand le conteneur démarre
 CMD [ "python", "./app.py"]
-
-#EXPOSE 8000
