@@ -4,7 +4,7 @@ Notre projet a pour objectif de récupérer les prix des sites amazon de différ
 
 # Prérequis
 
-Pour utiliser notre application vous devez installer docker et minikube.
+Pour utiliser notre application vous devez installer docker et minikube. Dans le dossier source nous pourrons retrouver les fichiers de configurations de notre page web ainsi que notre script python qui permet de récupérer les prix des site amazon de différents pays. Nous pourrons également retrouver dans le dossier k8s les configurations de notre minikube.
 
 # Utilisation de notre application
 
@@ -22,4 +22,3 @@ Récupérer le fichier .zip de mon git. Ensuite allez dans le dossier k8s et ex�
  - Boran KOYUNCU
  - Arvind SAMY
  - Walid MANSOURI
- 
