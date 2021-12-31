@@ -4,7 +4,7 @@ Notre projet a pour objectif de récupérer les prix des sites amazon de différ
 
 # Prérequis
 
-Pour utiliser notre application vous devez installer docker et minikube. Dans le dossier source nous pourrons retrouver les fichiers de configurations de notre page web ainsi que notre script python qui permet de récupérer les prix des site amazon de différents pays. Nous pourrons également retrouver dans le dossier k8s les configurations de notre minikube.
+Pour utiliser notre application vous devez installer docker et minikube. Dans le dossier source nous pourrons retrouver les fichiers de configurations de notre page web ainsi que notre script python qui correspond à une API python. En effet elle permet de récupérer le prix de chaque pays d'amazon. Nous pourrons également retrouver dans le dossier k8s les configurations de notre minikube.
 
 # Utilisation de notre application
 
@@ -24,6 +24,8 @@ Insérer dans la barre de recherche le lien amazon du produit que vous souhaité
 Vous devriez retrouver le résultat ci-dessous :
 
 ![](images/résultat.png)
+
+Nous observons donc que en france l'apple watch est à 429 euro mais qu'en Allemagne elle est à 331 euros. Lorque la valeur est à 0 cela signifie qu'elle est en rupture de stock dans ce pays en cliquant sur l'oeil nous accédons direcment à l'amazon du pays.
 
 # Auteur
 
