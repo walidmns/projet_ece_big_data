@@ -8,7 +8,7 @@ Pour utiliser notre application vous devez installer docker et minikube. Dans le
 
 # Utilisation de notre application
 
-Récupérer le fichier .zip de mon git. Ensuite allez dans le dossier k8s et exécuter les commandes suivantes :
+Récupérer le fichier .zip de notre git. Ensuite allez dans le dossier k8s et exécuter les commandes suivantes :
 
     - kubectl apply -f service.yaml
 
