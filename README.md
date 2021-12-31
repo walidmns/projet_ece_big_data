@@ -23,7 +23,7 @@ Ensuite utilisez votre navigateur et entrer dans la barre de recherche localhost
 Insérer dans la barre de recherche le lien amazon du produit que vous souhaité. Par exemple https://www.amazon.fr/Apple-Watch-Boîtier-Aluminium-Minuit-Bracelet/dp/B09HHGT5SS/ref=sr_1_5?crid=3L51IL1UWZA8T&keywords=apple+watch&qid=1640881748&sprefix=apple%2Caps%2C126&sr=8-5 qui correpond au lien amazon france de l'amazon. 
 Vous devriez retrouver le résultat ci-dessous :
 
-
+![](images/résultat.png)
 
 # Auteur
 
