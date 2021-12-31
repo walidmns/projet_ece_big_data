@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bot-amazon
+  labels:
+    app: bot-amazon
+spec:  
+  replicas: 3
+  selector:
+    matchLabels:
+      app: bot-amazon
+  template:
+    metadata:
+      labels:
+        app: bot-amazon
+    spec:
+      containers:
+        - name: php
+          image: walid92/php:version2
+          ports:
+          - containerPort: 80
+        - name: api
+          image: walid92/api:version1
+          ports:
+          - containerPort: 8000

@@ -1,2 +1,6 @@
-FROM nginx 
-COPY . /usr/share/nginx/html
+# Dockerfile
+FROM php:8.0-apache
+
+WORKDIR /var/www/html
+
+COPY src .

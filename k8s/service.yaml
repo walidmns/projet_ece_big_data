@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: bot-amazon-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: bot-amazon
+  ports:
+    - port: 8080
+      targetPort: 80
+
