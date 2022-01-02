@@ -25,7 +25,7 @@ Vous devriez retrouver le résultat ci-dessous :
 
 ![](images/resultat_philips.png)
 
-Nous observons donc qu'en france les rasoirs sont à 24 euros tandis qu'en Pologne ils sont a 19 euros.
+Nous observons donc qu'en france les rasoirs sont à 24 euros tandis qu'en Pologne ils sont a 29 euros.
 
 # Auteur
 
